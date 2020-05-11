@@ -1,0 +1,99 @@
+body {
+  background-color: #42a5f5;
+}
+
+.dprow {
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-family: "Exo";
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.dpcontainer {
+  background-color: white;
+  max-width: 333px;
+  width: 100%;
+  padding: 65px;
+
+  height: 481px;
+  text-align: center;
+  border-radius: 0.25rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.dialHeading {
+  margin-top: -26px;
+  font-size: small;
+}
+
+#output {
+  font-family: "Exo";
+  font-size: 2rem;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+  color: #1976d2;
+  border: 2px solid blue;
+}
+
+.digit:active,
+.dig:active {
+  background-color: #e6e6e6;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.dig {
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.login,
+.image {
+  min-height: 10vh;
+}
+
+.cardH {
+  max-height: 481px;
+  height: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.spinner {
+
+  margin-top: 30px;
+
+}
+
+.card2 {
+
+  margin-top: 10px;
+
+}
+
+.cl {
+  float: right;
+  margin-top: 6px;
+  font-size: smaller;
+  cursor: pointer;
+}
